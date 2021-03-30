@@ -1,4 +1,6 @@
 import React from "react";
+import github from "./github.svg";
+import linkedin from "./linkedin.svg"
 
 function Footer() {
   return (
@@ -6,15 +8,17 @@ function Footer() {
       <div className="container text-center">
         <a href="https://www.linkedin.com/in/nicholas-werner-38928783?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bkc238eKDT9GCzKmYmpCoSg%3D%3D">
           <img
-            className="linkimg"
-            src="../Assets/linkedin-brands.svg"
+            width="30"
+            height="30"
+            src={linkedin}
             alt="linkedin logo"
           />
         </a>
         <a href="https://github.com/ncwerner85">
           <img
-            className="linkimg"
-            src="react-portfolio/src/Assets/linkedin-brands.svg"
+            width="30"
+            height="30"
+            src={github}
             alt="github logo"
           />
         </a>
