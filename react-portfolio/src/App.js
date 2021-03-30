@@ -1,8 +1,10 @@
-import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
-import Carousel from './components/Carousel/carousel'
-import About from './components/About/about';
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Carousel from "./components/Carousel/carousel";
+import About from "./components/About/about";
+import Portfolio from "./components/Portfolio/portfolio";
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <Navbar />
         <Carousel />
         <About />
+        <Portfolio />
         <Footer />
       </header>
     </div>
