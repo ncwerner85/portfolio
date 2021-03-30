@@ -8,16 +8,16 @@ function Footer() {
       <div className="container text-center">
         <a href="https://www.linkedin.com/in/nicholas-werner-38928783?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bkc238eKDT9GCzKmYmpCoSg%3D%3D">
           <img
-            width="30"
-            height="30"
+            width="40"
+            height="40"
             src={linkedin}
             alt="linkedin logo"
           />
         </a>
         <a href="https://github.com/ncwerner85">
           <img
-            width="30"
-            height="30"
+            width="40"
+            height="40"
             src={github}
             alt="github logo"
           />
