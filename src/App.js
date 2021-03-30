@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Carousel from "./components/Carousel/carousel";
 import About from "./components/About/about";
 import Portfolio from "./components/Portfolio/portfolio";
+import Contact from "./components/Contact/contact";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Carousel />
         <About />
         <Portfolio />
+        <Contact />
         <Footer />
       </header>
     </div>
