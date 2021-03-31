@@ -8,7 +8,7 @@ function Navs() {
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Navbar.Brand href="#home">Nicholas Werner</Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="#about me">About Me</Nav.Link>
+        <Nav.Link href="#about_me">About Me</Nav.Link>
         <Nav.Link href="#portfolio">Portfolio</Nav.Link>
         <Nav.Link href="#contact">Contact</Nav.Link>
       </Nav>

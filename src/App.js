@@ -13,9 +13,13 @@ function App() {
       <header className="App-header">
         <Navbar />
         <Carousel />
+        <hr className="featurette-divider" />
         <About />
+        <hr className="featurette-divider" />
         <Portfolio />
+        <hr className="featurette-divider" />
         <Contact />
+        <hr className="featurette-divider" />
         <Footer />
       </header>
     </div>

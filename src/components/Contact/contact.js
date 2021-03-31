@@ -2,39 +2,39 @@ import React from "react";
 
 function contact() {
   return (
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">
+    <div className="row">
+      <div className="col-md-7">
+        <h2 id="contact">
           Contact Me.
-          <span class="text-light">
+          <span className="text-light">
             Please reach out to me with any inquires.
           </span>
         </h2>
-        <div class="card">
-          <h2 class="contact" class="card-title">
+        <div className="card">
+          <h2 className="contact" className="card-title">
             Contact
           </h2>
-          <div class="contact" class="card-body">
+          <div className="contact" className="card-body">
             <form action="https://formspree.io/f/mjvpggvb" method="POST">
-              <div class="col-12">
+              <div className="col-md-7">
                 <label>
-                  <div class="row">Name:</div>
+                  <div className="row">Name:</div>
                   <input type="text" name="_replyto" />
                 </label>
               </div>
-              <div class="col-12">
+              <div className="col-md-7">
                 <label>
-                  <div class="row">Email:</div>
+                  <div className="row">Email:</div>
                   <input type="text" name="_replyto" />
                 </label>
               </div>
-              <div class="col-12">
+              <div className="col-md-7">
                 <label>
-                  <div class="row">Message:</div>
+                  <div className="row">Message:</div>
                   <textarea name="message"></textarea>
                 </label>
               </div>
-              <button type="button" class="btn btn-primary">
+              <button type="button" className="btn btn-primary">
                 Send
               </button>
             </form>
